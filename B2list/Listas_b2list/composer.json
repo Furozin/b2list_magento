@@ -1,0 +1,32 @@
+  {
+    "name": "B2list/Listas_b2list",
+    "description": "Módulo link de lista B2list",
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "require": {
+        "php": "~7.0.0",
+        "magento/framework": "~2.0"
+    },
+    "authors": [
+        {
+          "name": "André Augusto Macias",
+          "email": "mandreaugusto@gmail.com",
+          "homepage": "http://www.b2list.com.br/",
+          "role": "Developer"
+        }
+      ],
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "B2list\\Listas_b2list\\": ""
+        }
+    },
+    "extra": {
+        "map": [
+            [
+                "*",
+                "B2list/Listas_b2list"
+            ]
+        ]
+    }
+}
