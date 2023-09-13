@@ -28,5 +28,11 @@
                 "B2list/Listas_b2list"
             ]
         ]
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Furozin/b2list_magento.git"
+        }
+    ]
 }
